@@ -1016,7 +1016,7 @@ ByteStream createTarGz(List contents, {String baseDir}) {
       var args = [
         // ustar is the most recent tar format that's compatible across all
         // OSes.
-        "--format=ustar",
+        //"--format=ustar",
         "--create",
         "--gzip",
         "--directory",
